@@ -1,7 +1,10 @@
 <template>
-  <div class="card-body">
-    This is my new component
-  </div>
+    <div
+      v-if="hasSlot('body')"
+      class="card-body"
+    >
+        <slot name="body"/>
+    </div>
 </template>
 
 <script>

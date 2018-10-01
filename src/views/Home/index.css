@@ -151,3 +151,21 @@
     -moz-box-shadow:    0 1px 9px -1px #ccc;  /* Firefox 3.5 - 3.6 */
     box-shadow:         0 1px 9px -1px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
+.background{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+.modal{
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    /* margin-top: 200px; */
+    transform: translateX(-50%);
+}
