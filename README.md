@@ -1,4 +1,4 @@
-# Kreatize-react-coding-challenge
+# Kreatize-vue-coding-challenge
 A quick coding challenge for Kreatize done in Vue, consisting of a shopping cart component. So far with only the boiler plate and some styling.
 
 ![Alt text](/public/img/screenshots/screenshot1.png?raw=true)
